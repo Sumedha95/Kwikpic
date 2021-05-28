@@ -1,0 +1,20 @@
+1.Are you familiar with command line and git? If yes, explain any 5 git commands:
+	git clone: This command is to creating a clone or copy of the repo in ur local system
+	git stash/unstash: Stash Save your changes in a hidden file , separarting from your main project. Unstash will reload all that hiddent file to your project.
+	git pull:This command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+	git commit: This command is to save the particular file or folder in your local system, that can be push to main repo.
+	git push: This command is used to upload local repository content to a remote repository. Like that the repo get updated with you local changes.
+	
+	
+2.Write commands to start, stop and restart a systems service called "cronListener":
+	To start the service: sudo systemctl start cronListener
+	To Stop the service: sudo systemctl stop cronListener
+	To Restart the service : sudo systemctl restart ronListener
+
+
+3. Suppose we save logs for a service called cronListener in a file called cron.logs. Write a bash command which reads the last 200 lines of the log file.
+	tail -n 200 cron.logs
+	
+	
+	
+====Sumedha Roy====
